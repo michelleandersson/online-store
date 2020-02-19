@@ -1,5 +1,10 @@
 body {
     background-color: #DCE9BE;
+    color: #2E2633;
+}
+
+.main-title {
+    color: #2E2633;
 }
 
 .navigation{
@@ -8,10 +13,16 @@ body {
 }
 
 .navigation-link {
-    display: inline;
+    display: inline-block;
     margin-right: 40px;
+    border-bottom: 2px solid #2E2633;
 }
 
 .navigation-link:last-of-type {
     margin-right: 0;
+
+}
+
+.main-information {
+    color: #2E2633;
 }
