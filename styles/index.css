@@ -16,6 +16,7 @@ body {
     display: inline-block;
     margin-right: 40px;
     border-bottom: 2px solid #2E2633;
+    font-size: 18px;
 }
 
 .navigation-link:last-of-type {
@@ -25,4 +26,6 @@ body {
 
 .main-information {
     color: #2E2633;
+    font-size: 20px;
+    
 }
