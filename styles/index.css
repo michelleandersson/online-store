@@ -1,3 +1,17 @@
 body {
     background-color: #DCE9BE;
 }
+
+.navigation{
+    background-color:#99173C;
+    text-align: center;
+}
+
+.navigation-link {
+    display: inline;
+    margin-right: 40px;
+}
+
+.navigation-link:last-of-type {
+    margin-right: 0;
+}
