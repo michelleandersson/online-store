@@ -34,3 +34,19 @@ body {
     padding-top:10px;
     font-family: Arial, Helvetica, sans-serif;   
 }
+
+.doge-image {
+    float: left;
+    width: 400px; 
+    font-size: 10px;
+    color: #2E2633
+}
+
+.doge-sayings {
+    margin-left:100px;
+    margin-top:50px;
+}
+
+.image-source {
+    clear: both;
+}
