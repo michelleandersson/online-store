@@ -45,13 +45,24 @@ body {
 .doge-sayings {
     margin-left:100px;
     margin-top:50px;
+    color: #2E2633;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .image-source {
     clear: both;
+    color: #2E2633;
 }
 
 .newsletter-info {
     float:left; 
     margin-right: 50%; 
+    color: #2E2633;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgba(239,255,205,0.5);
+}
+
+.newsletter-heading {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #99173C;
 }
