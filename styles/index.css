@@ -50,3 +50,8 @@ body {
 .image-source {
     clear: both;
 }
+
+.newsletter-info {
+    float:left; 
+    margin-right: 50%; 
+}
