@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.navigation{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.nav_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DCE9BE;
+    
+}
+
+.nav_list_item{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: #2E2633;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #99173C;
+    text-decoration: none;
+}
+
+li a:active, a:visited, a:link{
+    text-decoration: none;
+}
+
+.contact_container{
+    margin: auto;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.contact_text{
+    /*margin-left: 30%;*/
+    padding-left: 30%;
+    margin-bottom: 50px;
+}
+
+.form{
+    margin: auto;
+    padding-left: 30%;
+    padding-bottom: 70px;
+}
+
+.address_text{
+    padding-left: 30%;
+    margin-bottom: 30px;
+}
+
+.map{
+    padding-left: 20%;
+    margin: auto;
+    padding-bottom: 50px;
+}
