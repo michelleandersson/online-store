@@ -1,3 +1,42 @@
-body {
+.body {
     background-color: #DCE9BE;
+}
+.navigation{
+    background-color:#99173C;
+    text-align: center;
+}
+.navigation-link {
+    display: inline-block;
+    margin-right: 40px;
+    border-bottom: 2px solid #2E2633;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation-link:last-of-type {
+    margin-right: 0;
+}
+.events-title {
+    text-align: center;
+}
+.events-menu {
+
+
+}
+.events-choices {
+    display: inline-block;
+    color: #99173C;
+    background-color: #2E2633;
+    text-decoration-color: #99173C;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    margin: 25px auto;
+    
+}
+.footer {
+    display: block;
+    background-color: #99173C;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
 }
