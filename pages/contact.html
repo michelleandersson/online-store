@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Shop - Contact</title>
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="#index" class="nav_link">SHOP NAME - LOGO</a>
+        </h1>
+    </header>
+
+    <nav class="navigation">
+        <ul class="nav_list">
+            <li class="nav_list_item"><a href="#products" class="nav_link">Products</a></li>
+            <li class="nav_list_item"><a href="#events" class="nav_link">Events</a></li>
+            <li class="nav_list_item"><a href="#about" class="nav_link">About us</a></li>
+            <li class="nav_list_item"><a href="#Contact" class="nav_link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="contact_container">
+        <!--Add contact details, customer service-->
+        <h2>Contact us</h2>
+        <p class="contact_text">You can contact us via phone or the form below.<br><br>
+            Phone number: 040-123456<br><br>
+            Our opening hours are:<br>
+            Mon-Fri 8-16
+        </p>
+
+        <!--Add contact form, with subject options?-->
+        <div class="form">
+            <form action="" class="contact_form">
+                <label for="name" class="label">Name:</label><br>
+                <input type="text" class="input_name" placeholder="Name"><br>
+                <label for="subject" class="label">Topic:</label><br>
+                <select class="subject" name="subject">
+                    <option value="pay">Payment</option>
+                    <option value="prob">Problem with order</option>
+                    <option value="quest">Question</option>
+                </select><br>
+                <label for="message" class="label">Message:</label><br>
+                <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Write something"></textarea><br>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+
+        <!--Map to office-->
+        <p class="address_text">Address:<br>
+            Our office is located at the Ground, Bredgatan 4, Malmö.
+        </p>
+        <div class="map">
+            <iframe
+                width="600"
+                height="450"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA_6hk-iVihoQwz98TWB64BCdyHQzdC4Wk&q=The+Ground,Bredgatan+4,Malmö" allowfullscreen>
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Some text for the footer</p>
+        <div class="logos">
+            <img class="social_logo" src="../images/facebook_logo.png">
+            <img class="social_logo" src="../images/GitHub_logo.png">
+            <img class="social_logo" src="../images/instagram_logo.png">
+        </div>
+    </footer>
+</body>
+</html>
