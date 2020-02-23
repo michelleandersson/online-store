@@ -1,0 +1,114 @@
+body {
+    background-color: #DCE9BE;
+    color: #2E2633;
+}
+
+.main-title {
+    color: #2E2633;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation{
+    background-color:#99173C;
+    text-align: center;
+}
+
+.navigation-link {
+    display: inline-block;
+    margin-right: 40px;
+    border-bottom: 2px solid #2E2633;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation-link:hover {
+    background-color:rgba(239,255,205,0.8) ;
+}
+
+.navigation-link:last-of-type {
+    margin-right: 0;
+
+}
+
+.main-information {
+    color: #2E2633;
+    font-size: 20px;
+    background-color: rgba(239,255,205,0.5);
+    padding-bottom:10px;
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.doge-image {
+    float: left;
+    width: 400px; 
+    font-size: 10px;
+    color: #2E2633
+}
+
+.doge-sayings {
+    margin-left:100px;
+    margin-top:50px;
+    color: #2E2633;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.image-source {
+    clear: both;
+    color: #2E2633;
+}
+
+.newsletter-info { 
+    float:left; 
+    margin-right: 0px; 
+    width:40%;
+    color: #2E2633;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgba(239,255,205,0.5);
+}
+
+.newsletter-heading {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #99173C;
+}
+
+.newsletter-form {
+ 
+    margin-left: auto; 
+    margin-right: 20px;  
+    width:40%; 
+    border: 3px solid #2E2633; 
+}
+
+.form-heading {
+    float:left; 
+    margin-top: 0px;
+}
+
+.form-container {
+    padding: 10px; 
+    background-color: rgba(153, 23, 60, 0.527);
+}
+
+input[type=text], input[type=submit] {
+    width:100%;  
+    padding: 12px; 
+    margin: 8px 0; 
+    display: inline-block; 
+    border: 1px solid #2E2633; 
+    box-sizing: border-box; 
+}
+
+input[type=checkbox]{
+    margin-top: 16px; 
+}
+
+input[type=submit]{
+    background-color: #2E2633;
+    color: white; 
+    border: none; 
+}
+
+.submit:hover {
+    text-decoration: underline white;
+}
+
