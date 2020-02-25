@@ -2,14 +2,11 @@ body {
     background-color:rgb(220,233,190) ;
 }
 
-
-
 header {
     color:rgb(220,233,190);
     background-color:rgb(153,23,60);
     position:relative;
-    top:0px;
-    
+    top:0px;   
 }
 
 h1 {
@@ -23,7 +20,6 @@ h1 {
     background-position:fixed;
     position:relative;
     background-size:cover;
-    
 }
 
 .navigation-link {
@@ -55,8 +51,6 @@ h1 {
     padding:2px 2px 2px 2px;
 }
 
-
-
 .moreinfo1 {
     display:inline-block;
     margin-left:250px;
@@ -70,7 +64,6 @@ h1 {
     margin-left:250px;
     margin-right:250px;
 }
-
 
 footer {
     color: rgb(220,233,190);
