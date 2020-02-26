@@ -35,7 +35,7 @@ header {
 }
 
 .navigation-link:hover {
-    background-color:rgba(239,255,205,0.8) ;
+    background-color:rgba(239,255,205,0.8);
 }
 
 .navigation-link:last-of-type {
@@ -58,6 +58,7 @@ header {
     font-size: 10px;
     color: #2E2633
 }
+
 
 .doge-sayings {
     margin-left:100px;

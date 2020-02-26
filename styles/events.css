@@ -20,12 +20,17 @@ header {
     text-align: center;
 }
 
+
 .navigation-link {
     display: inline-block;
     margin-right: 40px;
     border-bottom: 2px solid #2E2633;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-link:hover {
+    background-color: #DCE9BE;
 }
 
 .navigation-link:last-of-type {
@@ -52,6 +57,10 @@ header {
     font-weight: bold;
     padding: 50px;
     margin: 25px;
+}
+
+.events-choices>a:hover {
+    background-color: #DCE9BE;
 }
 
 .events-text {
