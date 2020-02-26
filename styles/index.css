@@ -3,8 +3,17 @@ body {
     color: #2E2633;
 }
 
+header {
+    color:rgb(220,233,190);
+    background-color:rgb(153,23,60);
+    position:relative;
+    top:0px;
+}
+
 .main-title {
-    color: #2E2633;
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -118,10 +127,10 @@ input[type=submit]{
 }
 
 .footer{
-    background-color: #99173C;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 20px;
+    color: rgb(220,233,190);
+    background-color:rgb(153,23,60);
+    text-align:center;
+    padding:15px;
     font-family: Arial, Helvetica, sans-serif; 
 }
 

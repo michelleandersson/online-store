@@ -5,8 +5,10 @@ body {
 }
 
 header { 
-    background-color: #99173C;
-    padding: 5% 20%;
+    color:rgb(220,233,190);
+    background-color:rgb(153,23,60);
+    position:relative;
+    top:0px;
 
 
 }
@@ -19,8 +21,9 @@ h2 {
 
 h1 {
     text-align: center;
-    color: #DCE9BE;
-    font-size: 50px;
+    color:#FFF;
+    font-size: 4em;
+
 
 }
 
@@ -50,12 +53,7 @@ ul {
     overflow: hidden;
 }
 
-footer {
-    padding: 5% 20%;
-    background-color: #99173C;
-    color: #DCE9BE;
-    clear: both;
-}
+
 
 .content {
 	width:40%;
@@ -73,4 +71,12 @@ padding:2%;
 
 img {
 	max-width: 400px;
+}
+
+footer {
+    color: rgb(220,233,190);
+    background-color:rgb(153,23,60);
+    text-align:center;
+    padding:15px;
+    clear: both;
 }
